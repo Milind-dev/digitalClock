@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<style type="text/css">
+	*{
+		margin:0px;
+		padding: 0px;
+	}
+	.container{
+		display: flex;
+		justify-content: center;
+		/*viewport-height*/
+		height: 100vh;
+		align-items: center;
+		/*transition: all 0.5s ease-in;*/
+		background: linear-gradient(145deg,limegreen,red)
+	}
+	.box{
+		text-align: center;
+	}
+	.hours,
+	.minutes,
+	.seconds,
+	.half{
+		width: 10vh;
+		height: 10vh;
+		margin: 1em;
+		padding: 1em;
+		box-shadow: 5px 5px 23px #7b5717, -5px -5px 23px #ff2348;
+		border-radius: 95px;
+		border: 2px white dashed;
+		font-size: 32px;
+		color: white;
+		font-family: 'Texturina', serif;
+		
+	}
+/*	hours:hover,
+		minutes:hover,
+		seconds:hover{
+			transform:translateY();
+		}*/
+</style>
+<body>
+	<div class="container">
+		<div box>
+			<div class = "hours">
+				<p>hours</p>
+				<p id="hours">8</p>
+			</div>
+		</div>
+		<div class="" box>
+			<div class="minutes">
+				<p>minutes</p>
+				<p id="minutes">8</p>
+			</div>
+		</div>
+		<div class="box" >
+			<div class="seconds">
+				<p>seconds</p>
+				<p id="seconds">8</p>
+			</div>
+		</div>
+		<div class="box">
+			<div class="half">
+				<p>half</p>
+				<p id="half">8</p>
+			</div>
+		</div>
+	</div>
+
+	<script type="text/javascript" src="/home/milind/Assignment1/Assignment13/js_oop/day3/script.js"></script>
+</body>
+</html>
