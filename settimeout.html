@@ -1,0 +1,31 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<script type="text/javascript">
+function generateRandomNum(){
+	var count = 1
+	var i  = 0;
+	setInterval(function(){
+		setTimeout(function(){
+			if(i <= 10){
+			 count += count * Math.random() ;
+			 console.log(Math.floor(count))
+			 i++;
+			}
+		   },1000)
+		},1000)
+		var clrT = clearTimeout(generateRandomNum, 5000)
+		clearInterval(clrT)
+ }
+//  clearTimeout(generateRandomNum, 13000)
+
+ generateRandomNum();	
+</script>
+</body>
+</html>
+
